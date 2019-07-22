@@ -72,7 +72,7 @@ def process_mesh(count, mesh_filepath, target_filepath, executable, additional_a
 
     subproc = subprocess.Popen(command, stdout=subprocess.DEVNULL)
     #uncomment to see all the command output
-    #subproc = subprocess.Popen(command)
+    subproc = subprocess.Popen(command)
     subproc.wait()
 
 

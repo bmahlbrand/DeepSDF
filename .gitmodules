@@ -1,3 +1,12 @@
 [submodule "third-party/cnpy"]
 	path = third-party/cnpy
 	url = https://github.com/rogersce/cnpy.git
+[submodule "third-party/nanoflann"]
+	path = third-party/nanoflann
+	url = https://github.com/jlblancoc/nanoflann
+[submodule "third-party/CLI11"]
+	path = third-party/CLI11
+	url = https://github.com/CLIUtils/CLI11
+[submodule "third-party/pangolin"]
+	path = third-party/pangolin
+	url = https://github.com/stevenlovegrove/Pangolin
